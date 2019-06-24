@@ -1,0 +1,38 @@
+html{
+background-color: pink;
+display:
+}
+
+body {
+  font-size: 16px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: palevioletred;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: lighter;
+    margin: 0,50px,0,50px;
+}
+
+button {
+  font-size: .9rem;
+  background-color: palevioletred;
+  color: white;
+  margin:10px;
+}
+
+ul {
+  list-style-type: none;
+  flex-direction: column;
+}
+
+
+li {
+  justify-content: flex-end;
+}
