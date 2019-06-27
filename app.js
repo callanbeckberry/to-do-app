@@ -27,12 +27,12 @@ function onReady() {
     toDos.forEach(function(toDo) {
       const newLi = document.createElement('li');
       const checkbox = document.createElement('input');
-      const dele = document.createElement('Button');
+      const deleteBtn = document.createElement('Button');
 
-      dele.textContent = "Delete!";
+      deleteBtn.textContent = "Delete!";
       checkbox.type = "checkbox";
 
-      dele.addEventListener('click', event => {
+      deleteBtn.addEventListener('click', event => {
         toDos = toDos.filter(function(item) {
           return item.id !== toDo.id;
 
@@ -46,7 +46,7 @@ function onReady() {
 
       toDoList.appendChild(newLi);
       newLi.appendChild(checkbox);
-      newLi.appendChild(dele);
+      newLi.appendChild(deleteBtn);
 
     });
 
